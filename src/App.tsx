@@ -286,7 +286,7 @@ function App() {
             Trading Watchlist by m27oflegend
           </h1>
           <p>
-            This watchlist is based on <a href="https://discord.com/channels/1146276386458304614/1146276389830529105/1177711051958136952" className="underline">this watchlist</a>
+            Watchlist below is based on <a href="https://discord.com/channels/1146276386458304614/1146276389830529105/1177711051958136952" className="underline font-bold">this watchlist</a>. <br />Did I miss anything? @ me in <a href="discord.gg/picklejar" className="underline font-bold">The Jar</a>
           </p>
           <p className="text-muted-foreground">
             Click on any asset to view its chart
@@ -496,7 +496,16 @@ function App() {
             </Button>
           ))}
         </div>
-        
+
+        {/* footer */}
+        <footer className="mt-12 md:mt-16 pt-6 border-t border-border">
+          <div className="text-center">
+            <p className="text-sm text-muted-foreground">
+              <strong>Disclaimer:</strong> Asset flags are provided by TradingView's symbol logo service and are not owned by this application.
+            </p>
+          </div>
+        </footer>
+
       </div>
 
     </div>
