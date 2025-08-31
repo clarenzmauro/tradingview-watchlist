@@ -159,6 +159,13 @@ const forexCHF: Asset[] = [
     link: "https://www.tradingview.com/chart/?symbol=OANDA%3AEURCHF"
   },
   {
+    ticker: "GBPCHF",
+    baseCurrency: "British Pound / Swiss Franc",
+    baseImage: "https://s3-symbol-logo.tradingview.com/country/GB--big.svg",
+    quoteImage: "https://s3-symbol-logo.tradingview.com/country/CH--big.svg",
+    link: "https://www.tradingview.com/chart/?symbol=OANDA%3AGBPCHF"
+  },
+  {
     ticker: "AUDCHF",
     baseCurrency: "Australian Dollar / Swiss Franc",
     baseImage: "https://s3-symbol-logo.tradingview.com/country/AU--big.svg",
